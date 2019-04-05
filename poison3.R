@@ -1,0 +1,11 @@
+poison=function(n,lamda)
+{
+  x=0:n
+  y=dpois(x,lamda)
+  barplot(y,ylim=c(0,1),xlab='回数',ylab='probability',main='ポアソン分布',
+  names.arg=x)
+  print(lamda)
+  print(lamda)
+  print(sqrt(lamda))
+  y
+}
